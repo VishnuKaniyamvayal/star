@@ -3,7 +3,7 @@ import ListHolder from "./Components/ListHolder";
 
 function App() {
   return (
-    <div className="App bg-primary h-screen">
+    <div className="App bg-primary h-screen no-scrollbar">
       <Header/>
       <ListHolder/>
     </div>
