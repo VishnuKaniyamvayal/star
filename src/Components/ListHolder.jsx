@@ -21,7 +21,7 @@ const ListHolder = () => {
   return (
     <div className='flex justify-center flex-col mt-20  max-h-[70vh]  overflow-hidden items-center no-scrollbar'>
          <div className='max-h-full overflow-y-scroll space-y-5 no-scrollbar'>
-        {tasks.map(( task , i )=>(<List title={task.taskName} key={i} status={task.taskStatus}/>))}
+        {tasks.map(( task , i )=>(<List title={task.taskName} key={i} status={task.taskStatus} description={task.taskDescription}/>))}
          </div>
     </div>
   )
