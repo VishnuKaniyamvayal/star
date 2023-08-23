@@ -11,7 +11,7 @@ const AddTask = () => {
   const handleChild = ()=>{
     setTextarea(!textarea);
   };
-  const docref = doc(collection(db, 'tasks'));
+  const docref = collection(db, 'tasks');
   const addTask = async()=>{
     await addDoc(docref, {
       'taskName':taskName,
