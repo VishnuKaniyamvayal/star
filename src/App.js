@@ -1,6 +1,7 @@
 import AddTask from "./Components/AddTask";
 import Header from "./Components/Header";
 import ListHolder from "./Components/ListHolder";
+import Loader from "./Components/Loader";
 
 function App() {
   return (
